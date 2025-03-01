@@ -15,8 +15,6 @@ abstract class Typo {
 }
 
 class NotoSans implements Typo {
-  const NotoSans();
-
   @override
   final String name = 'noto_sans';
 
